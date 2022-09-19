@@ -4,7 +4,7 @@ Kinect to Python translation using OpenCV and NiTE2, enabling controlling your P
 
 ---
 
-## Nedeed python packages are:
+Nedeed python packages are:
 - numpy
 - argparse
 - cv2
