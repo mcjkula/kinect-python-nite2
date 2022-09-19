@@ -1,1 +1,1 @@
-# python-kinect
+# Python to Kinect using (NiTE2)
