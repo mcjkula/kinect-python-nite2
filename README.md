@@ -31,4 +31,4 @@ python main.py
 ```
 
 ## Contributing:
-If you find any bugs or wish to make improvements, feel free to create a pull request.
+Development/Contribution halted as of archiving this repository for now.
