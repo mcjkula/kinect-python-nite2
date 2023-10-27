@@ -1,22 +1,34 @@
-# Python to Kinect using (NiTE2)
+# Python to Kinect using NiTE2
 
-Kinect to Python translation using OpenCV and NiTE2, enabling controlling your PC or games using body movement.
+This repository provides an interface for Kinect with Python, using OpenCV and NiTE2. It allows you to control your PC or games using body movements captured by Kinect.
 
----
+## Features:
+- Detects Kinect device and captures depth and skeleton data.
+- Draws the body skeleton on the depth frame.
+- Compatible with Kinect V1 and provides feedback on which device is being used.
 
-Nedeed python packages are:
-- numpy
-- argparse
-- cv2
-- openni
+## Requirements:
+You will need the following Python packages:
 
-Which can be installed using pip.
+- `numpy`
+- `argparse`
+- `opencv-python` (for `cv2`)
+- `openni`
 
-(Example)
+These can be installed using pip. For instance:
+
+```bash
+pip install numpy argparse opencv-python openni
 ```
-pip install numpy
+
+## Setup:
+1. Make sure you have the Kinect device connected to your PC.
+2. Install all the necessary Python packages.
+3. Run the main script to start capturing and processing data from Kinect.
+
+```bash
+python main.py
 ```
 
-```
-pip install openni
-```
+## Contributing:
+If you find any bugs or wish to make improvements, feel free to create a pull request.
